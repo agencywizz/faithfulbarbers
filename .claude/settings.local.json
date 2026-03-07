@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack --yes)",
+      "Bash(npm run build)",
+      "Bash(npm install)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(sips -Z 800 /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/logo.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/barber-working.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/portfolio-1.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/portfolio-2.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/portfolio-3.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/portfolio-4.jpg /Users/juniordameto/Documents/projects/faithfullbarbers/public/images/shop-interior.jpg)",
+      "Bash(python3 /Users/juniordameto/.claude/skills/ui-ux-pro-max/scripts/search.py \"barbershop luxury premium dark elegant service\" --design-system -p \"Faithful Barbers\")"
+    ]
+  }
+}

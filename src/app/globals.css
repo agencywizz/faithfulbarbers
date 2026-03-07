@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-gold: #D4A843;
+  --color-gold-light: #E8C76A;
+  --color-gold-dark: #B8860B;
+  --color-charcoal: #0A0A0A;
+  --color-charcoal-light: #1A1A1A;
+  --color-silver: #C0C0C0;
+  --color-silver-light: #D9D9D9;
+  --color-cream: #F5F0E8;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0A0A0A;
+  color: #F5F0E8;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), serif;
+}
+
+/* Gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E8C76A, #D4A843, #B8860B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gold border glow */
+.border-gold-glow {
+  box-shadow: 0 0 15px rgba(212, 168, 67, 0.3);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4A843;
+  border-radius: 4px;
+}
+
+/* Focus states for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #D4A843;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Smooth section transitions */
+section {
+  position: relative;
+}
+
+/* Booking iframe */
+.booking-frame {
+  border: 2px solid rgba(212, 168, 67, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
