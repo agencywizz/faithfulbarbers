@@ -103,7 +103,7 @@ export default function Reviews() {
         <ScrollReveal direction="up" delay={400}>
         <div className="mt-12 text-center">
           <a
-            href="https://www.google.com/maps/place/Faithful+Barbers/"
+            href="https://www.google.com/search?q=Faithful+Barbers+Reviews&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOUPm6vU5Rmxp-jNOYl-KKpgIY0Qv0MdvyxxOxFvAlhJxXCTIh5_XC-u00Bu4M1jb9hg1x9rKlpgabbbNB3Xs-VN9fXwSByXmFpEn15ndbTnBzUH3eA%3D%3D&sa=X"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-sm border border-gold/30 px-6 py-3 text-sm font-medium text-gold transition-all hover:border-gold hover:bg-gold/10"

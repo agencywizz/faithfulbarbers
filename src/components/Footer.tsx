@@ -12,7 +12,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-6 text-sm text-cream/40">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-cream/40">
             <a href="#home" className="hover:text-gold transition-colors">
               Home
             </a>
@@ -25,12 +25,26 @@ export default function Footer() {
             <a href="#contact" className="hover:text-gold transition-colors">
               Contact
             </a>
+            <a href="/privacy" className="hover:text-gold transition-colors">
+              Privacy
+            </a>
           </div>
         </div>
 
-        <div className="mt-8 border-t border-white/5 pt-8 text-center">
+        <div className="mt-8 border-t border-white/5 pt-8 text-center space-y-1">
           <p className="text-xs text-cream/30">
             &copy; {new Date().getFullYear()} Faithful Barbers. All rights reserved.
+          </p>
+          <p className="text-xs text-cream/20">
+            Developed by{" "}
+            <a
+              href="https://agencywizz.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold transition-colors"
+            >
+              Wizz! digital agency
+            </a>
           </p>
         </div>
       </div>

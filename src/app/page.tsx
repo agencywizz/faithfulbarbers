@@ -8,6 +8,7 @@ import Booking from "@/components/Booking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ProgressiveBlur from "@/components/ProgressiveBlur";
+import CookieConsent from "@/components/CookieConsent";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       </main>
       <Footer />
       <ProgressiveBlur />
+      <CookieConsent privacyHref="/privacy" />
     </>
   );
 }

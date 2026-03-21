@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 const layers = [
   { blur: 0.25, mask: "linear-gradient(to bottom, transparent 0%, black 12.5%, black 25%, transparent 37.5%)" },
   { blur: 0.5,  mask: "linear-gradient(to bottom, transparent 12.5%, black 25%, black 37.5%, transparent 50%)" },
@@ -10,6 +14,23 @@ const layers = [
 ];
 
 export default function ProgressiveBlur() {
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setVisible(!entry.isIntersecting),
+      { threshold: 0.01 }
+    );
+
+    observer.observe(footer);
+    return () => observer.disconnect();
+  }, []);
+
+  if (!visible) return null;
+
   return (
     <div
       style={{

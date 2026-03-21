@@ -31,7 +31,7 @@ export default function Contact() {
                   F45 X934, Ireland
                 </p>
                 <a
-                  href="https://maps.google.com/?q=Faithful+Barbers+Castlerea"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Faithful+Barbers,Main+St,Castlerea,Co.+Roscommon,F45+X934,Ireland"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 inline-block text-sm text-gold hover:text-gold-light transition-colors"
@@ -139,7 +139,7 @@ export default function Contact() {
           {/* Map */}
           <div className="relative overflow-hidden rounded-sm border border-white/10">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5!2d-8.4935!3d53.7683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e2b8e6e78e6c7%3A0x1234567890!2sFaithful+Barbers!5e0!3m2!1sen!2sie!4v1700000000000"
+              src="https://maps.google.com/maps?q=Faithful+Barbers,Main+St,Castlerea,Co.+Roscommon,F45+X934,Ireland&t=&z=15&ie=UTF8&iwloc=&output=embed"
               className="h-full min-h-[400px] w-full"
               style={{ border: 0 }}
               allowFullScreen

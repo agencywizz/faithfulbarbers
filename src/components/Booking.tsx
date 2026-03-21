@@ -94,13 +94,12 @@ export default function Booking() {
             </div>
             {/* Setmore iframe */}
             <iframe
-              src="https://testp0i4.setmore.com"
+              src="https://faithfulbarbers.setmore.com"
               title="Book an appointment at Faithful Barbers"
               width="100%"
               height="600"
-              frameBorder="0"
-              scrolling="yes"
-              className="block w-full"
+              style={{ border: 0 }}
+              className="block w-full overflow-auto"
             />
           </div>
         </div>
