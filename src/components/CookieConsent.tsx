@@ -33,7 +33,7 @@ const CookieConsent: React.FC<CookieConsentProps> = ({ privacyHref = "/privacy" 
       role="dialog"
       aria-modal="true"
       aria-labelledby="cookie-title"
-      className="fixed bottom-0 left-0 right-0 z-50 flex items-end justify-center p-4 sm:p-6"
+      className="fixed bottom-0 left-0 right-0 z-[9999] flex items-end justify-center p-4 sm:p-6"
     >
       <div className="relative w-full max-w-2xl rounded-sm border border-gold/20 bg-charcoal-light shadow-2xl shadow-black/60">
         <div className="p-5 sm:p-6">
