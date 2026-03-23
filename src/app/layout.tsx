@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
+import { Analytics } from "@vercel/analytics/next";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -49,6 +50,7 @@ export default function RootLayout({
       >
         {children}
         <CookieConsent />
+        <Analytics />
       </body>
     </html>
   );
