@@ -48,7 +48,7 @@ export default function About() {
                 </p>
                 <p>
                   No rushing. No guessing. Whether it&rsquo;s a sharp fade,
-                  a classic cut, or a hot towel shave &mdash; we do it right,
+                  a classic cut, or a hot towel shave, we do it right,
                   every time.
                 </p>
                 <p>

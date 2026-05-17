@@ -38,12 +38,12 @@ export default function Footer() {
           <p className="text-xs text-cream/20">
             Developed by{" "}
             <a
-              href="https://agencywizz.com"
+              href="https://wizzcomms.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gold transition-colors"
             >
-              Wizz! digital agency
+              Wizz! comms.
             </a>
           </p>
         </div>
